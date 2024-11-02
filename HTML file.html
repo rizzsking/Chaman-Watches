@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chaman Watches</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+        header {
+            background: #fff;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+        }
+        .hero {
+            background-image: url('hero-image-placeholder.jpg'); /* Replace with your hero image */
+            height: 400px;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 3em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+            text-align: center;
+        }
+        .hero h1 {
+            margin: 0;
+        }
+        .cta-button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            margin-top: 20px;
+            display: inline-block;
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .product {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            text-align: center;
+            background: white; /* Product card background */
+            transition: box-shadow 0.3s;
+        }
+        .product:hover {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .product img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        footer {
+            background: #fff;
+            text-align: center;
+            padding: 20px;
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .social-icons {
+            margin-top: 10px;
+        }
+        .social-icons a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Chaman Watches</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#products">Products</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    
+    <div class="hero">
+        <h1>Stylish Watches for Every Occasion</h1>
+        <a href="#products" class="cta-button">Shop Now</a>
+    </div>
+    
+    <div class="product-grid">
+        <div class="product">
+            <img src="luxury-watch.jpg" alt="Luxury Chronograph Watch"> <!-- Replace with your product image -->
+            <h2>Luxury Chronograph Watch</h2>
+            <p>A sophisticated chronograph watch perfect for any occasion.</p>
+            <p>Price: $199.99</p>
+        </div>
+        <div class="product">
+            <img src="classic-watch.jpg" alt="Classic Analog Watch"> <!-- Replace with your product image -->
+            <h2>Classic Analog Watch</h2>
+            <p>Timeless design with a durable leather strap.</p>
+            <p>Price: $149.99</p>
+        </div>
+        <div class="product">
+            <img src="sport-watch.jpg" alt="Sport Digital Watch"> <!-- Replace with your product image -->
+            <h2>Sport Digital Watch</h2>
+            <p>Rugged design with advanced features for sports enthusiasts.</p>
+            <p>Price: $89.99</p>
+        </div>
+        <div class="product">
+            <img src="elegant-watch.jpg" alt="Elegant Dress Watch"> <!-- Replace with your product image -->
+            <h2>Elegant Dress Watch</h2>
+            <p>Sleek and stylish, ideal for formal events.</p>
+            <p>Price: $129.99</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Chaman Watches. All rights reserved.</p>
+        <p>Contact: info@chamanwatches.com | Phone: (123) 456-7890</p>
+        <div class="social-icons">
+            <p>Follow us on social media:</p>
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+            <a href="#">LinkedIn</a>
+            <!-- Replace # with actual URLs for social media -->
+        </div>
+    </footer>
+</body>
+</html>
